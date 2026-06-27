@@ -1,0 +1,213 @@
+{
+  "brand": {
+    "name": "HofShiLang",
+    "tagline": "Fluency born from immersion"
+  },
+  "nav": {
+    "home": "Home",
+    "whatWeDo": "How it works",
+    "services": "Services",
+    "servicesDesc": "Assessment, study tracks, mentoring and school solutions",
+    "products": "Products",
+    "productsDesc": "Platform, courses, mentoring, ebooks and more",
+    "companies": "Languages",
+    "companiesDesc": "The languages available on the platform",
+    "blog": "Blog",
+    "projects": "Stories",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Start free",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "HofShiLang",
+      "title": "Learn languages through immersion",
+      "subtitle": "Powered by the LLF — the Language Learning Formula: the science-based method that blends comprehensible input, active output and spaced repetition so you truly acquire a language.",
+      "ctaPrimary": "Start free",
+      "ctaSecondary": "See how it works"
+    },
+    "purpose": {
+      "eyebrow": "Why it works",
+      "title": "Read, listen and speak — in one place",
+      "body": "You don't memorize loose lists. You learn words inside real texts and dialogues, hear how they sound, and use them in an actual conversation.",
+      "items": {
+        "financial": { "title": "Immersive reading", "desc": "Real texts with translation and vocabulary always in context." },
+        "geographic": { "title": "Native audio", "desc": "Hear every sentence from native speakers, synced to the text." },
+        "fiscal": { "title": "AI conversation", "desc": "Practice speaking with an AI tutor, anytime, with no judgment." },
+        "personal": { "title": "Spaced repetition", "desc": "The system reviews each word a moment before you'd forget it." }
+      }
+    },
+    "whoWeAre": {
+      "eyebrow": "The experience",
+      "title": "A method that trains the three skills that matter",
+      "body": "Reading, listening and speaking stop being separate drills. On HofShiLang they happen together, around the same content — the way your brain actually learns a language.",
+      "cta": "Explore the method",
+      "sealValue": "15 min",
+      "seal": "a day is all it takes"
+    },
+    "impact": {
+      "eyebrow": "Results",
+      "title": "Numbers that speak for HofShiLang",
+      "stats": {
+        "clients": { "value": "50K+", "label": "learners around the world" },
+        "approval": { "value": "98%", "label": "would recommend the method" },
+        "countries": { "value": "120+", "label": "countries reached" }
+      }
+    },
+    "freedom": {
+      "eyebrow": "In practice",
+      "title": "Everything you need to truly learn",
+      "intro": "We bring reading, audio, conversation and memory into one experience. With HofShiLang you can:",
+      "items": [
+        "Read real texts and stories with translation and vocabulary in context",
+        "Hear native-speaker audio synced to every sentence",
+        "Tap any word for its meaning, an example and the pronunciation",
+        "Practice conversation with an AI tutor, anytime",
+        "Lock in new vocabulary with smart spaced repetition",
+        "Track your progress and learn on desktop or mobile"
+      ],
+      "ctaPrimary": "Start free",
+      "ctaSecondary": "Explore services"
+    },
+    "flagTheory": {
+      "eyebrow": "How it works",
+      "title": "From your first word to a fluent conversation",
+      "intro": "A simple loop that repeats the natural cycle of learning a language — instead of piling up loose rules.",
+      "flags": [
+        { "title": "Pick a text", "desc": "Start with stories and articles at your level and on your interests." },
+        { "title": "Read and listen", "desc": "Text and native audio together; tap any word to understand it." },
+        { "title": "Save the vocabulary", "desc": "New words drop into your review queue automatically." },
+        { "title": "Review at the right time", "desc": "Spaced repetition reminds you just before you'd forget." },
+        { "title": "Talk to the AI", "desc": "Use what you learned in real dialogue and gain confidence to speak." },
+        { "title": "Track your progress", "desc": "Watch your vocabulary and fluency grow with every session." }
+      ]
+    },
+    "group": {
+      "eyebrow": "Explore",
+      "title": "Get to know the platform",
+      "cta": "Explore everything"
+    },
+    "testimonials": {
+      "eyebrow": "Who uses it",
+      "title": "Stories from people who unlocked a new language",
+      "list": [
+        { "quote": "For the first time the vocabulary stuck. Reading and listening together made the words click without any memorizing.", "name": "Mariana Alves", "role": "Learning English" },
+        { "quote": "Talking to the AI took away my fear of speaking. By my first real conversation I already felt ready.", "name": "Rafael Costa", "role": "Learning Spanish" },
+        { "quote": "I picked French back up after years away. Reviewing at the right time made all the difference.", "name": "Juliana Mendes", "role": "Returning to French" }
+      ]
+    },
+    "newsletter": {
+      "eyebrow": "Newsletter",
+      "title": "Get language-learning tips in your inbox",
+      "subtitle": "Memory methods, immersive reading and conversation — straight to the point, no spam.",
+      "placeholder": "Your best email",
+      "button": "Subscribe",
+      "disclaimer": "By subscribing, you agree to our privacy policy."
+    }
+  },
+  "footer": {
+    "tagline": "Fluency born from immersion.",
+    "nav": "Navigation",
+    "explore": "Explore",
+    "legal": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "rights": "All rights reserved.",
+    "madeWith": "Made for people who love learning languages."
+  },
+  "services": {
+    "eyebrow": "What we offer",
+    "title": "Services",
+    "subtitle": "Support to take you — or your school — further, from assessment to certification.",
+    "list": [
+      { "title": "Level assessment & certification", "desc": "A proficiency test to find your starting point, and a certificate as you progress." },
+      { "title": "Personalized study tracks", "desc": "A plan tailored to your goal: travel, work, an exam, or all-round fluency." },
+      { "title": "Mentoring & live classes", "desc": "Human guidance from mentors to unlock what AI can't solve on its own." },
+      { "title": "For schools & companies", "desc": "Licenses, a class dashboard and student management to teach languages at scale." }
+    ],
+    "cta": "Talk to us"
+  },
+  "products": {
+    "eyebrow": "What we offer",
+    "title": "Products",
+    "subtitle": "From the immersion platform to courses, mentoring and ebooks — choose how you want to learn.",
+    "list": [
+      { "tag": "Product · Platform", "title": "HofShiLang platform", "desc": "The immersion app: reading with native audio, AI conversation and spaced repetition, on web and mobile.", "cta": "Start free" },
+      { "tag": "Product · Courses", "title": "Language courses", "desc": "Structured tracks by language and level, from beginner to advanced, with guided content.", "cta": "See courses" },
+      { "tag": "Product · Mentoring", "title": "Mentoring", "desc": "Guidance packages with mentors to speed up your progress with a human touch.", "cta": "Learn more" },
+      { "tag": "Product · Conversation", "title": "Conversation", "desc": "Speaking-focused sessions — with AI and in groups — to build fluency and confidence.", "cta": "Practice" },
+      { "tag": "Product · Ebooks", "title": "Ebooks & readers", "desc": "Level-graded stories and books to read and listen to, with vocabulary in context.", "cta": "Explore" },
+      { "tag": "Product · Workshops", "title": "Workshops", "desc": "Live themed sessions on pronunciation, writing, culture and study methods.", "cta": "Join" }
+    ]
+  },
+  "companies": {
+    "eyebrow": "Languages",
+    "title": "Languages",
+    "subtitle": "The languages you can learn on HofShiLang — with more on the way.",
+    "list": [
+      { "name": "English", "tagline": "The most popular", "desc": "From the basics to fluent conversation, with stories, native audio and AI practice.", "cta": "Start" },
+      { "name": "Spanish", "tagline": "Close and powerful", "desc": "Learn the language of 20 countries with immersive reading and real dialogue.", "cta": "Start" },
+      { "name": "French", "tagline": "Sound and rhythm", "desc": "Master pronunciation by hearing natives as you read — sentence by sentence.", "cta": "Start" },
+      { "name": "German", "tagline": "Clear structure", "desc": "Vocabulary in context to demystify the grammar from day one.", "cta": "Start" },
+      { "name": "Italian", "tagline": "Musical", "desc": "Stories and audio that make Italian natural to learn.", "cta": "Start" },
+      { "name": "Portuguese", "tagline": "For foreigners", "desc": "Learn Brazilian Portuguese with real content and conversation practice.", "cta": "Start" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "We believe you learn a language by using it",
+    "lead": "HofShiLang grew from a simple idea: you learn a language by living it, not by memorizing loose rules.",
+    "body": "That's why we bring immersive reading, native audio, AI conversation and spaced repetition into a single experience. Every word shows up in context, sounds in its right voice, and comes back at the exact moment to make it stick. Less mechanical memorizing, more real contact with the language — the way the brain actually learns.",
+    "valuesTitle": "What we believe",
+    "values": [
+      { "title": "Context", "desc": "Words only make sense — and stay — when they come from real texts and conversations." },
+      { "title": "Consistency", "desc": "A little every day beats a lot once in a while. The right review takes care of that." },
+      { "title": "Confidence", "desc": "Speaking early, without fear of mistakes, is what unlocks fluency." }
+    ],
+    "cta": "Start free"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's start your next language",
+    "subtitle": "Have a question, or want to bring HofShiLang to your school or team? Tell us — we reply within two business days.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "interest": "I'm interested in",
+      "message": "Message",
+      "messagePlaceholder": "Tell us which language you want to learn or how we can help...",
+      "submit": "Send message",
+      "note": "Illustrative form — send integration will be connected soon."
+    },
+    "channelsTitle": "Other channels",
+    "email": "ola@hofshilang.com",
+    "scheduleTitle": "Rather start now?",
+    "scheduleDesc": "Create your free account and start learning today.",
+    "scheduleCta": "Start free"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Ideas to learn languages better",
+    "subtitle": "Memory methods, immersive reading, audio and conversation — in short, practical articles.",
+    "readMore": "Read article",
+    "backToList": "Back to blog",
+    "publishedOn": "Published on"
+  },
+  "projects": {
+    "eyebrow": "Stories",
+    "title": "Learning stories",
+    "subtitle": "Real people who unlocked a new language through reading, audio and conversation.",
+    "viewProject": "Read story",
+    "backToList": "Back to stories"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for doesn't exist or has moved.",
+    "cta": "Back to home"
+  }
+}

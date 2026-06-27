@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Hofshilab Group — Apple-inspired system
+   Monochrome (white / parchment / black) + single Action Blue.
+   SF Pro system stack. Liquid Glass material. No gold, no
+   decorative color gradients.
+   ============================================================ */
+:root {
+  --ink: #1d1d1f;
+  --sub: #6e6e73;
+  --line: rgba(0, 0, 0, 0.1);
+
+  --white: #ffffff;
+  --parchment: #f5f5f7;
+  --pearl: #fafafc;
+  --black: #000000;
+
+  --on-dark: #f5f5f7;
+  --on-dark-2: #a1a1a6;
+  --on-dark-3: #86868b;
+
+  --accent: #0071e3;
+  --accent-hover: #0077ed;
+  --link: #0066cc;
+  --link-dark: #2997ff;
+
+  --nav-h: 4.5rem;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-sub: var(--sub);
+  --color-line: var(--line);
+
+  --color-white: var(--white);
+  --color-parchment: var(--parchment);
+  --color-pearl: var(--pearl);
+  --color-black: var(--black);
+
+  --color-on-dark: var(--on-dark);
+  --color-on-dark-2: var(--on-dark-2);
+  --color-on-dark-3: var(--on-dark-3);
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-link: var(--link);
+  --color-link-dark: var(--link-dark);
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+
+  --radius-card: 1.5rem;
+  --radius-block: 1.75rem;
+  --radius-tile: 0.875rem;
+
+  --animate-marquee: marquee 36s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+  letter-spacing: -0.025em;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* ---- Surface modes (the color change is the section divider) ---- */
+.section-parchment {
+  background: var(--parchment);
+  color: var(--ink);
+}
+.section-dark {
+  background: var(--black);
+  color: var(--on-dark);
+}
+
+/* ---- Liquid Glass material ----
+   backdrop-filter is reserved for the single floating nav (cheap: 1 element).
+   Cards use solid translucent fills + inset highlight to read as "glass"
+   without the per-element blur that tanks scroll performance. */
+.glass {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 6px 22px rgba(31, 45, 80, 0.06);
+}
+.glass-nav {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.9),
+    inset 0 -1px 1px rgba(255, 255, 255, 0.3),
+    0 6px 24px rgba(0, 0, 0, 0.1);
+}
+.glass-nav-scrolled {
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.9),
+    inset 0 -1px 1px rgba(255, 255, 255, 0.3),
+    0 10px 34px rgba(0, 0, 0, 0.16);
+}
+.glass-dark {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+}
+/* Frosted white panel — stands apart from the white page via blur + shadow.
+   Single element, so the backdrop-filter cost is negligible. */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.9),
+    0 14px 44px rgba(31, 45, 80, 0.12);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
