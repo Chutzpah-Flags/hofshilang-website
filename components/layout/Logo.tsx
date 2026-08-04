@@ -1,32 +1,44 @@
 import { Link } from "@/i18n/navigation";
 
-// Brand logo: an action-blue rounded-square "HL" monogram (matching the favicon)
-// paired with the HLANG wordmark. `light` flips the wordmark colour for use on
-// dark backgrounds (e.g. the footer); the blue chip works on both.
+// Brand logo: an action-blue "HLANG" badge paired with the full HofShiLang
+// wordmark. `light` flips the wordmark colour for dark backgrounds (footer);
+// the blue badge works on both.
 export function Logo({ light = false }: { light?: boolean }) {
   return (
     <Link
       href="/"
-      aria-label="HLANG — Início"
+      aria-label="HofShiLang — Início"
       className="group flex items-center gap-2.5"
     >
-      <span className="inline-flex h-8 w-8 items-center justify-center rounded-[0.6rem] bg-accent text-white transition-transform duration-300 group-hover:scale-[1.06]">
-        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden>
-          <path
-            d="M5 6.5v11M5 12h5M10 6.5v11M14.5 6.5v11M14.5 17.5h4.5"
-            stroke="currentColor"
-            strokeWidth="1.9"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </span>
+      <svg
+        width="58"
+        height="24"
+        viewBox="0 0 58 24"
+        fill="none"
+        aria-hidden
+        className="transition-transform duration-300 group-hover:scale-[1.04]"
+      >
+        <rect width="58" height="24" rx="6" fill="#0071e3" />
+        <text
+          x="29"
+          y="12.5"
+          textAnchor="middle"
+          dominantBaseline="central"
+          fontFamily="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+          fontSize="12"
+          fontWeight="700"
+          letterSpacing="0.4"
+          fill="#ffffff"
+        >
+          HLANG
+        </text>
+      </svg>
       <span
         className={`text-[1.0625rem] font-semibold tracking-[-0.02em] ${
           light ? "text-white" : "text-ink"
         }`}
       >
-        HLANG
+        HofShiLang
       </span>
     </Link>
   );
