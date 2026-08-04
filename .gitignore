@@ -44,6 +44,7 @@ next-env.d.ts
 # Documentação e specs em Markdown — mantidos apenas localmente.
 # (Os .mdx do blog/histórias NÃO são afetados; só *.md.)
 *.md
+CLAUDE.md
 /docs/
 # Skills de agente instaladas — não fazem parte do site.
 /.agents/
